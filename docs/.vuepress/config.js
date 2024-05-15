@@ -4,8 +4,9 @@ import theme from "./config/theme";
 import { defineUserConfig } from "vuepress";
 // import fortawesome from "@fortawesome/fontawesome-free"
 export default defineUserConfig({
-  base: "/blog/",
-  // lang: 'zh-CN',
+  // base: "/blog/",
+  base:'/docs/',
+  lang: 'zh-CN',
   locales: {
     // 键名是该语言所属的子路径
     // 作为特例，默认语言可以使用 '/' 作为其路径。
