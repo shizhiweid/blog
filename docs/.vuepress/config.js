@@ -1,7 +1,7 @@
+import { defineUserConfig } from "vuepress";
 import head from "./config/head";
 import plugins from "./config/plugins";
 import theme from "./config/theme";
-import { defineUserConfig } from "vuepress";
 // import fortawesome from "@fortawesome/fontawesome-free"
 export default defineUserConfig({
   base: "/blog/",
