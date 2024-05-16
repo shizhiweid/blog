@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-c9afc8f6","path":"/archives/","title":"归档","lang":"zh-CN","frontmatter":{"archivesPage":true,"title":"归档","permalink":"/archives/","article":false},"headers":[],"git":{"updatedTime":1715331389000},"filePathRelative":"@pages/archivesPage.md"}');export{e as data};
