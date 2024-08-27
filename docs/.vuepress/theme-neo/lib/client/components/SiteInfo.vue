@@ -27,7 +27,7 @@
       </div>
       <div class="site-info__item-value">{{ totalWords }} 字</div>
     </div>
-    <div class="site-info__item">
+    <!-- <div class="site-info__item">
       <div class="site-info__item-label">
         <NeoIcon name="neo-shijian" class="neo-mr-4" />
         最后活动时间：
@@ -35,8 +35,8 @@
       <div class="site-info__item-value">
         {{ lastActiveDate == "刚刚" ? "刚刚" : lastActiveDate + "前" }}
       </div>
-    </div>
-    <div class="site-info__item">
+    </div> -->
+    <!-- <div class="site-info__item">
       <div class="site-info__item-label">
         <NeoIcon name="neo-yonghuliang" class="neo-mr-4" />
         本站被访问了：
@@ -47,8 +47,8 @@
         </span>
         次
       </div>
-    </div>
-    <div class="site-info__item">
+    </div> -->
+    <!-- <div class="site-info__item">
       <div class="site-info__item-label">
         <NeoIcon name="neo-yuyan" class="neo-mr-4" />
         您的访问排名：
@@ -59,15 +59,15 @@
         </span>
         名
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script>
-import { onMounted, ref, inject } from "vue";
-import { dayDiff, timeDiff } from "../utils/index.js";
-import busuanzi from "../composables/ownbusuanzi";
+import { inject, onMounted, ref } from "vue";
 import { useThemeLocaleData } from "../composables/index.js";
+import busuanzi from "../composables/ownbusuanzi";
+import { dayDiff, timeDiff } from "../utils/index.js";
 
 export default {
   setup(props, { emit }) {
