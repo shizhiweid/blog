@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-2431e9d5","path":"/socialContact/","title":"社交","lang":"zh-CN","frontmatter":{"title":"社交","icon":"neo-html","catalogue":true,"comment":false},"headers":[],"git":{"updatedTime":1727056228000},"filePathRelative":"socialContact/README.md"}');export{t as data};
