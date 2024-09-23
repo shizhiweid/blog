@@ -15,10 +15,10 @@ export default {
     //     collapsible: false,
     //     children: []
     // },
-    '/recreation/': 'structure',
-    '/socialContact/': 'structure',
+    // '/recreation/': 'structure',
+    // '/socialContact/': 'structure',
     '/programme/': 'structure',
-    '/movies/': 'structure',
+    // '/movies/': 'structure',
     // '/about/': 'structure',
 }
 

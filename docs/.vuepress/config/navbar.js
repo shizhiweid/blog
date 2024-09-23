@@ -1,8 +1,8 @@
 export default [
     {
-        text: '杂篇',
+        text: '前端',
         // icon: 'neo-renwu',
-        link: '/programme/WebFrontEnd/a1',//默认跳转位置
+        link: '/programme/WebFrontEnd/',//默认跳转位置
         activeMatch: '^/programme/'
     },
     // {
