@@ -1,13 +1,13 @@
 export default [
     {
-        text: '学习',
-        icon: 'neo-renwu',
+        text: '杂篇',
+        // icon: 'neo-renwu',
         link: '/programme/WebFrontEnd/a1',//默认跳转位置
         activeMatch: '^/programme/'
     },
     // {
-    //     text: '娱乐',
-    //     icon: 'neo-yule',
+    //     text: '知识库',
+    //     // icon: 'neo-yule',
     //     link: '/recreation/',
     //     activeMatch: '^/recreation/'
     // },
@@ -19,7 +19,7 @@ export default [
     // },
     {
         text: '个人中心',
-        icon: 'neo-zhusuoyinguanli',
+        // icon: 'neo-zhusuoyinguanli',
         children: [
             {
                 text: 'GitHub',
@@ -35,7 +35,7 @@ export default [
             },
 
         ]
-    }
+    },
     // {
     //     text: '影视推荐',
     //     icon: 'neo-yingshi1',
